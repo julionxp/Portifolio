@@ -1,0 +1,99 @@
+/*
+=====================
+CONFIGURAÇÕES BÁSICAS
+=====================
+*/
+
+body {
+    font-family: "Fira Sans" , Arial, sans-serif; /* define a fonte princial para o site */
+    margin: 0px; /* remover qualquer margin padrão aplicada pelo navegador */
+    color:  #141414; /* define a cor do site para um tom escuro */
+}
+
+h1, h2, h3, p {
+    margin: 0px;
+}
+
+img {
+    max-width: 100%; /* garante que a img nunca ultrapasse o container (overflow) */
+    height: auto; /* mantém a proporção original da img */
+}
+
+li {
+    list-style: none;
+}
+
+
+/*
+==================
+CABEÇALHO (HEADER)
+==================
+*/
+
+.header {
+    max-width: 1200px; /* define largura máxima para evitar que o conteúdo fique muito largo em telas grandes */
+    padding: 40px 20px; /* espaçamento interno para cima/baixo direita/esquerda */
+    margin: 0 auto; /* centralizar o cabeçalho na horizontal */
+    display: flex; /* organiza os elemntos lado a lado */
+    justify-content: space-between; /* espaço horizontal entre os itens */
+    align-items: center; /* centraliza a linha verticalmente os elemntos */
+}
+
+.header-menu {
+    display: flex;
+    flex-wrap: wrap; /* permite que os itens do menu quebrem a linha */
+    gap: 10px; /* espaçamento entre o itens sem precisar usar o space between */
+    justify-content: center; /* garante que os itens sempre fiquem centralizado */
+}
+
+.header-menu a {
+    text-decoration: none; /* remove o sublinhado padrão da linha */
+    padding: 10px 20px;
+    font-size: 20px;
+    color:  #141414; /* define a cor do site para um tom escuro */
+    display: block; /* garante que o link ocupe toda área do botão */
+}
+
+
+/*
+====================
+SEÇÃO DE INTRODUÇÃO
+====================
+*/
+
+.introducao {
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* divide o espaço, 1 parte para a img e 2 partes para o texto */
+    gap: 100px;
+    align-items: center;
+}
+
+.introducao h1 {
+    font-size: 72px;
+    margin-bottom: 30px;
+}
+
+.introducao p {
+    font-size: 24px;
+    color: #525252;
+}
+
+
+/*
+=====================
+SEÇÃO DE EXPERIÊNCIA
+=====================
+*/
+
+.exeperiencia {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+}
+
