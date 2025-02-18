@@ -97,3 +97,14 @@ SEÇÃO DE EXPERIÊNCIA
     gap: 100px;
 }
 
+.exeperiencia .subtitulo {
+    color: #e0e0e0;
+}
+
+.exeperiencia-texto {
+    font-size: 24px;
+}
+
+.subtitulo {
+    font-size: 144px;
+}
